@@ -1,0 +1,63 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background: url(Image/background.jpg) top center;
+}
+
+#page {
+    width: 800px;
+    height: 100px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+h1 {
+    color :darkgreen;
+    font-size: 32px;
+}
+
+div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+span {
+    color: yellow;
+    font-style: italic;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    background-color: white;
+    border: none;
+    padding: 10ptx 10ptx;
+    color: darkgreen;
+}
+
+a:hover {
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+.box {
+    width: 400px;
+    float: left;
+    display: inline;
+    background-color: yellow;
+    color: red;
+    padding: 20px;
+    margin-left: 10pt;
+}
